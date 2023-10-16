@@ -2,7 +2,7 @@
   <img src="assets/logo.jpg">
 </p>
 <h1 align="center">
-  <b>PiroAutoFilterBot</b>
+  <b>FilterBot</b>
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=PIRO+MOVIE+SEARCH+BOT+!;CREATED+BY+PIRO!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)</p>
@@ -66,7 +66,7 @@
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/ritheshrkrm/PiroAutoFilterBot">
+<a href="https://heroku.com/deploy?template=https://github.com/Rokstar890/FilterBot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
