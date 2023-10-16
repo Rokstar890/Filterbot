@@ -49,6 +49,10 @@ reqst_channel = environ.get('REQST_CHANNEL_ID')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = -1001394587233
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
+VERIFY = bool(environ.get('VERIFY', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'MdiskShortner.link')
+SHORTLINK_API = environ.get('SHORTLINK_API', '00b0eacdca74780666d78f22ec43440e43994c2b')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hebapir376:ravi1234@cluster0.x9pmpfx.mongodb.net/?retryWrites=true&w=majority")
